@@ -1,0 +1,14 @@
+Package: com.kunger.ydxz
+Name: 跃动小子助手
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: 跃动小子 1.0 (com.baixiangzs.ydxz1) 助手
+ Egret 5.x + EgretNative(JSC) 壳，注入链：
+ JSGlobalContextRef 捕获 → JSEvaluateScript 注入 payload → 包装战斗实体伤害/血量方法
+ 功能：秒杀 / 无敌 / 塔防秒杀无敌 / 快速开箱 / 自动开箱 / 免广告
+Author: 昆哥儿科技
+Depiction: 一触开关式悬浮球面板
+
+⚠️ 说明：跃动小子为服务端权威战斗（Rpc 10600 下发 steps）。
+   本插件的「秒杀/无敌」作用于客户端战斗表现层（FightEntity/塔防实体），
+   对以服务端 steps 驱动的玩法只能改变表现，不能改变结算结果。
